@@ -1,0 +1,29 @@
+{
+  "name": "legal-cms-md-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "pinia": "^2.1.7",
+    "vuetify": "^3.5.10",
+    "axios": "^1.6.7",
+    "@mdi/font": "^7.4.47",
+    "date-fns": "^3.3.1",
+    "pdfjs-dist": "^3.11.174"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.4",
+    "vite-plugin-vuetify": "^2.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.21.1"
+  }
+}

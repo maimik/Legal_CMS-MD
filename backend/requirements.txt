@@ -1,0 +1,55 @@
+# FastAPI и сервер
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# База данных
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.12.1
+psycopg2-binary==2.9.9
+
+# Валидация и настройки
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Безопасность
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+pyjwt==2.8.0
+bcrypt==4.1.1
+
+# HTTP клиент
+httpx==0.25.2
+
+# Обработка документов
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+python-docx==1.1.0
+Pillow==10.1.0
+python-magic==0.4.27
+pdf2image==1.16.3
+
+# Генерация отчетов
+reportlab==4.0.7
+jinja2==3.1.2
+
+# Работа с датами
+python-dateutil==2.8.2
+
+# Планировщик задач
+APScheduler==3.10.4
+
+# Email (опционально)
+aiosmtplib==3.0.1
+
+# Логирование
+python-json-logger==2.0.7
+
+# Утилиты
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Тестирование (опционально)
+pytest==7.4.3
+pytest-asyncio==0.21.1
